@@ -6,7 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.content {
+  background-color: white;
+  color: black;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +29,16 @@
 
 .App-link {
   color: #61dafb;
+}
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  padding: 0px 0px 15px 0px;
+}
+
+.grid2 {
+  padding-top: 80px;
 }
 
 @keyframes App-logo-spin {
